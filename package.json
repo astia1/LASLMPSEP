@@ -1,5 +1,5 @@
 {
-  "description": "This is a website for the fictional campsites review site NuCamp.",
+  "description": "This is a website for Laurieswanson LMP SEP.",
   "main": "index.html",
   "scripts": {
     "lite": "lite-server",
