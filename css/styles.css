@@ -1,21 +1,16 @@
-body {
+body,
+.nav-item {
     font-family: 'Lato', sans-serif;
     background-color: rgba(217,200,158,.075);
-    color:rgba(47.84,44.71,33.73,1.0);
+    color:rgba(47.84,44.71,33.73,1.0);      
+}
+
+.tab-content{
+    background-color:white
 }
 
 h1, h2, h3 {
     font-family: 'Lato', sans-serif;
-    color:rgba(47.84,44.71,33.73,1.0);
-}
-
-h2 {
-    color: #000000;
-    color:rgba(47.84,44.71,33.73,1.0);
-}
-
-header h2 {
-    color: #000000;
     color:rgba(47.84,44.71,33.73,1.0);
 }
 
@@ -24,40 +19,30 @@ header h2 {
     background-size: cover;
 } 
 
-
 .site-footer {
     /* background-image: linear-gradient(white, #a1a1a1); */
     background-color: rgba(217,200,158,.15);
     padding: 20px 0;
 }
-
-.jumbotron {
-    margin-top: 0px;
-    height: 100%;
-    color: white;
-}
     
-
 .row-content {
     padding: 50px 0;
     border-bottom: 1px ridge;
     min-height: 200px;
 }
 
-
 .navbar {  
     margin: 0;
     padding: 1em 5em 1em 5em;
 }
-
+/* 
 .navbar-brand {
     font-family: 'Lato', sans-serif;
     color:#87986A;
     font-size: 20px;
     font-weight: bold;
     margin: 0px;
-}
-
+} */
 
 
 .navbar-toggler{
@@ -81,4 +66,13 @@ a, a:hover {
 
 .headline {
     background:transparent;
+}
+
+.d-flex {
+    overflow: hidden;
+    background:rgba(47.84,44.71,33.73,.06);
+}
+
+.fa {
+    color:rgba(47.84,44.71,33.73,.7);
 }
