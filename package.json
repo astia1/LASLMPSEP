@@ -1,12 +1,12 @@
 {
-  "description": "This is a website for Laurieswanson LMP SEP.",
+  "description": "This is a website for Laurie Swanson LMP SEP.",
   "main": "index.html",
   "scripts": {
     "lite": "lite-server",
     "start": "npm run lite",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "John McKinney",
+  "author": "John McKinney, Alan Nguyen",
   "license": "ISC",
   "devDependencies": {
     "lite-server": "^2.6.1"
