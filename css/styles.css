@@ -115,7 +115,7 @@ p {
   height: 4em;
   border: 0.5em solid rgba(47.84,44.71,33.73,.2);
   border-radius: 50%;
-  margin-left: 2.5em;
+  margin-left: em;
   margin-top: 0em;
   margin-bottom:-5em;
 }
@@ -136,6 +136,6 @@ p {
 
 .bigbutton {
     background: rgba(41, 69, 170, 0.15);
-    color: rgba(47.84,44.71,33.73,.7);
+    color: rgba(47.84,44.71,33.73,.8);
     /* font-family:'Arial Narrow Bold', sans-serif; */
 }
