@@ -52,10 +52,7 @@ h1, h2, h3 {
 } */
 
 
-.navbar-toggler{
-    margin-top: 20px;
-    margin-right: 20px
-}
+
 
 .breadcrumb, .breadcrumb-item{
     background: none;
@@ -84,6 +81,9 @@ a, a:hover {
     color:rgba(47.84,44.71,33.73,.7);
 }
 
+.tab-content {
+  background-color: white;
+}
 p * {
   background-color: inherit;
 }
