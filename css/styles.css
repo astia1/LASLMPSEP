@@ -73,8 +73,11 @@ a, a:hover {
 }
 
 .d-flex {
-    overflow: hidden;
-    background:rgba(47.84,44.71,33.73,.06);
+    overflow: hidden;   
+}
+
+.strip{
+ background:#2f2c210f;
 }
 
 .fa {
@@ -84,8 +87,8 @@ a, a:hover {
 .tab-content {
   background-color: white;
 }
-p * {
-  background-color: inherit;
+p {
+    font-size: 22px !important;
 }
 .text-height-0 {
   line-height: 1!important;
@@ -104,4 +107,9 @@ p * {
 }
 .text-height-5 {
   line-height: 3.5!important;
+}
+
+.bigbutton {
+    background: rgba(41, 69, 170, 0.15);
+    color: rgba(47.84,44.71,33.73,.6);
 }
