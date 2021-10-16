@@ -110,6 +110,13 @@ p {
 }
 
 .bigbutton {
-    background: rgba(41, 69, 170, 0.15);
-    color: rgba(47.84,44.71,33.73,.6);
+    background: rgba(41, 69, 170, 0.12);
+    color: rgba(47.84,44.71,33.73,.8);
+}
+
+.svg-content { 
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	left: 0;
 }
