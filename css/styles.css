@@ -34,13 +34,13 @@ h1, h2, h3 {
     
 .row-content {
     padding: 50px 0;
-    border-bottom: 1px ridge;
-    min-height: 200px;
+    border-bottom: 1px ridge; 
+    /* min-height: 200px; */
 }
 
 .navbar {  
     margin: 0;
-    padding: 1em 5em 1em 5em;
+    /* padding: 1em 5em 1em 5em; */
 }
 /* 
 .navbar-brand {
