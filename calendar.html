@@ -16,12 +16,79 @@
 </head>
 
 <body>
-
-   <div class="container container-fluid">
-		<div class="row row-content">
-		    <div class="container">
-                <h1 class="text-center pt-5" id="offerings">Offerings</h1>
-		        <div class="row">
+		<!--NAV STARTS-->
+		<nav class="navbar navbar-light navbar-pages sticky-top">
+            <a href="#"><h4 class="logo">Laurie Swanson LMT, SEP</h4></a>
+			<button class="navbar-toggler ml-auto" data-target="#topNavbar" data-toggle="collapse" type="button" aria-expanded="false">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+			<div class="collapse navbar-collapse" id="topNavbar">
+			    <!-- <a href="#"><h3>Laurie Swanson LMT, SEP</h3></a> -->
+				<ul class="navbar-brand navbar-nav ml-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="index.html">Home</a>
+					</li>
+          <li class="nav-item">
+						<a class="nav-link" href="index.html#offerings">Offerings</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="about.html">About</a>
+					</li>
+          <li class="nav-item">
+						<a class="nav-link" href="#">Appointments</a>
+					</li>
+          <li class="nav-item">
+						<a class="nav-link" href="index.html#contact">Contact</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="gift.html">Gift Certificates</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+<!--NAV ENDS-->
+<!-- Hero -->
+    <div class="jumbotron">
+		<div class="row">
+			<div class="col">					
+                <h5 class="ml-0 headline">Massage & Somatic Support</h5>
+			    <h5 class="ml-0 pb-5">for Relaxation, Healing & Wholeness</h5>
+			</div>
+		</div>
+        <div class="row d-flex flex-row justify-content-end pt-2 strip">
+            <div class="p-2 mr-md-4" id="bar">
+                <a href="#"><i class="fa fa-map-marker"></i> Location</a>
+            </div>
+            <div class="p-2 mx-md-4" id="bar">
+                <a href="#"><i class="fa fa-envelope"></i> laurieswanson02@gmail.com</a>
+            </div>
+            <div class="p-2 ml-md-4" id="bar">
+                <a href="tel:+12067995999"><i class="fa fa-phone"></i> 206-799-5999</a>
+            </div>
+        </div>
+        <!-- big button - launch covid modal  -->
+        <div class="row d-flex flex-row py-1 justify-content-end">
+            <a href="#">
+            <div class="bigbutton justify-content-center">  
+            <h5 class="px-5 mb-n2 text-align-center">Covid</h5>
+            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="mask-face" width="59px" height="59px" color= rgba(47.84,44.71,33.73,.5) class="svg-inline--fa fa-mask-face mx-auto d-block" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M616.4 135.5c-28.47-28.48-73.59-30.63-105.3-7.184h-31.11c-17.88-.1152-35.34-5.772-50.22-15.69l-42.26-28.18c-40.86-27.25-94.11-27.25-134.1 0l-42.74 28.5c-14.56 9.711-31.65 15.1-49.16 15.21L128.9 128.3C97.2 104.9 52.1 107 23.6 135.5c-31.18 31.17-31.5 82.11-.7498 113.7C99.21 326.7 168.9 416 320 416c149.3 0 217.4-85.87 297.1-166.8C647.9 217.6 647.6 166.7 616.4 135.5zM112 294.9L45.79 226.8C27.16 207.7 27.35 176.9 46.22 158.1c17.9-17.85 46.55-18.43 65.76-2.496L112 294.9zM400 336H240c-8.842 0-16.02-7.095-16.02-15.93c0-8.836 7.174-16.06 16.02-16.06h159.1c8.842 0 16 7.225 16 16.06C416 328.9 408.9 336 400 336zM432 272H208c-8.842 0-16.02-7.142-16.02-15.98c0-8.834 7.191-15.89 16.03-15.89h223.1c8.842 0 15.99 7.054 15.99 15.89C448 264.9 440.9 272 432 272zM432 208.2H208.1c-8.842 0-16.03-7.337-16.03-16.17c0-8.836 7.191-15.8 16.03-15.8h223.1c8.842 0 15.99 6.96 15.99 15.8C448 200.9 440.9 208.2 432 208.2zM594.2 226.8l-66.23 67.1l.0272-134.8c0-.1445-.0707-.2677-.0825-.4084V155.6c19.21-15.1 47.89-15.46 65.85 2.449C612.7 176.9 612.8 207.7 594.2 226.8z"></path></svg>
+            <h5 class="pl-4 mt-n2">Precautions</h5>
+            </div></a>                       
+        </div>
+	</div>
+   <div class="container">
+        <div class="row row-content">
+		    <div class="col">
+                <h3 class="text-center pb-2" id="appointments">Appointments</h3>
+                <div class="row row-content">
+			        <div class="col">
+                        <!-- ScheduleOnce embed START -->
+                        <div id="SOIDIV_LaurieSwanson" data-so-page="LaurieSwanson" data-height="550" data-style="border: 1px solid #d8d8d8; min-width: 290px; max-width: 900px;" data-psz="00"></div>
+                        <script type="text/javascript" src="https://cdn.oncehub.com/mergedjs/so.js"></script>
+                        <!-- ScheduleOnce embed END -->
+			        </div>
+                </div>                   
+                <div class="row row-content">
 			        <div class="col">
 				        <!--Creating a nested card inside-->
                         <div class="card">
@@ -45,15 +112,8 @@
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <h4 class="card-title"><strong>Fees</strong></h4>
-                                                    <p class="card-text">Massage and bodywork can be a great part of overall wellness and happiness. We’re wired for touch and it’s a basic human need.</p>
-                                                    <p class="card-text">Our massage sessions will most likely be a combination of attention to specific areas, and to the nervous system as a whole. It is a varied sensory experience where you are taken care of.</p>
-                                                    <p class="card-text">My influences are Myofascial Release, Trager ™, Swedish, positional release, compress/decompress, active muscle resistance, Esalen ™, Presencing ™ and more.</p>
-                                                    <p class="card-text">My touch can be from gentle to firm, depending on your preferences. I have moved away from heavy “deep tissue” work. When we are less forceful, we can have a different somatic conversation and your body is encouraged to respond in a way that is more integrated and lasts better.</p>
-                                                    <p class="card-text">Sessions can be clothed, or unclothed with draping.</p>
-                                                    <blockquote class="blockquote">
-                                                        <p class="card-text mb-0">“I like how your work feels playful,” & “It’s a good balance of relaxing and therapeutic.”</p><!--footer and cite is also another html attribute-->
-                                                        <footer class="card-text blockquote-footer">Clients</footer>
-                                                    </blockquote>
+                                                    <p class="card-text">Somatic Support </p>
+                                                    <p class="card-text">Massage</p>    
                                                 </div>
                                                 <div class="col-md-6"><img alt="Girl in a jacket" src="/img/9-448993-small.jpg" class="card-img">
                                                 </div>
@@ -63,13 +123,9 @@
                                     <div class="tab-pane fade show" id="forms" role="tabpanel">
                                         <div class="container">
                                             <div class="row">
-                                                <div class="col col-md-6">
+                                                <div class="col">
                                                     <h4 class="card-title"><strong>Forms</strong></h4>
-                                                    <p class="card-text">In this work, I help you access and grow your unique physiological resources to relax, reconnect, and feel better. I bring spaciousness, curiosity and a stable presence to support your nervous system in increasing its capacity and resilience.</p>
-                                                    <p class="card-text">We may include conversation/somatic inquiry, gentle touch, exploration of the external environment, or other sensory activities suited to you.</p>
-                                                    <p class="card-text">My influences are Somatic Experiencing ™, Organic Intelligence ™, and Transforming Touch ™.</p>
-                                                    <p class="card-text">Sessions are clothed, and either seated in a chair or on a massage table.</p>
-                                                    <p class="card-text">Sessions can be clothed, or unclothed with draping.</p>
+                                                    <p class="card-text">Please download and fill out the folowing forms. Please email the completed forms to laurieswanson02@gmail.com or bring them to your appointment.</p>
                                                 </div>
                                             </div>    
                                         </div>
@@ -77,9 +133,9 @@
                                     <div class="tab-pane fade show" id="policies" role="tabpanel">
                                         <div class="container">
                                             <div class="row">
-                                                <div class="col col-md-6">
+                                                <div class="col">
                                                     <h4 class="card-title"><strong>Policies</strong></h4>
-                                                    <p class="card-text">In this work, I help you access and grow your unique physiological resources to relax, reconnect, and feel better. I bring spaciousness, curiosity and a stable presence to support your nervous system in increasing its capacity and resilience.</p>
+                                                    <p class="card-text"> PlaceholderText ~ In this work, I help you access and grow your unique physiological resources to relax, reconnect, and feel better. I bring spaciousness, curiosity and a stable presence to support your nervous system in increasing its capacity and resilience.</p>
                                                 <!-- <p class="card-text">We may include conversation/somatic inquiry, gentle touch, exploration of the external environment, or other sensory activities suited to you.</p>
                                                 <p class="card-text">My influences are Somatic Experiencing ™, Organic Intelligence ™, and Transforming Touch ™.</p>
                                                 <p class="card-text">Sessions are clothed, and either seated in a chair or on a massage table.</p>

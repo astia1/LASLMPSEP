@@ -17,7 +17,8 @@ h1, h2, h3 {
 .parallax-image {
     background-image: url(/img/puff-lt.jpg);
     background-size: cover;
-} 
+}
+
 
 .box  {
     background-color: rgba(217,200,158,.15);
@@ -51,8 +52,11 @@ h1, h2, h3 {
     margin: 0px;
 } */
 
-
-
+.navbar-pages {
+    margin: 0;
+    background-color: white;
+    border-bottom: 1px ridge;
+}
 
 .breadcrumb, .breadcrumb-item{
     background: none;
@@ -68,7 +72,12 @@ a, a:hover {
     text-decoration: none;
 }
 
+.logo {
+    margin-bottom: -.5em;
+}
+
 .headline {
+    margin-top: -2.75em;
     background:transparent;
 }
 
