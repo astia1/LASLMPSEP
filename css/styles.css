@@ -6,7 +6,7 @@ body,
 }
 
 .tab-content{
-    background-color:white
+    background-color:white;
 }
 
 h1, h2, h3 {
@@ -15,9 +15,14 @@ h1, h2, h3 {
 }
 
 .parallax-image {
-    background-image: url(/img/puff-lt.jpg);
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.3) 0%,rgba(255,255,255,0.6) 100%), url(/img/puff-lt.jpg);
     background-size: cover;
-} 
+}
+
+.calendar-banner {
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.6) 0%,rgba(255,255,255,0.9) 100%), url(/img/268s.jpg);
+    background-size: cover;
+}
 
 .box  {
     background-color: rgba(217,200,158,.15);
@@ -42,17 +47,20 @@ h1, h2, h3 {
     margin: 0;
     /* padding: 1em 5em 1em 5em; */
 }
-/* 
-.navbar-brand {
+
+/*.navbar-brand {
     font-family: 'Lato', sans-serif;
     color:#87986A;
     font-size: 20px;
     font-weight: bold;
-    margin: 0px;
-} */
+    margin: 0px; 
+}*/
 
-
-
+.navbar-pages {
+    margin: 0;
+    background-color: white;
+    border-bottom: 1px ridge;
+}
 
 .breadcrumb, .breadcrumb-item{
     background: none;
@@ -68,15 +76,30 @@ a, a:hover {
     text-decoration: none;
 }
 
+.logo {
+    margin-bottom: -.25em;
+
+}
+
 .headline {
-    background:transparent;
+    padding-left: 2em;
+    background: transparent;
 }
 
 .d-flex {
     overflow: hidden;   
 }
 
+.spacer {
+    padding-bottom: 3em;
+}
+
 .strip{
+ background:#2f2c210f;
+}
+
+.stripCal{
+ padding-right: 20px;   
  background:#2f2c210f;
 }
 
@@ -110,6 +133,14 @@ p {
 }
 
 .bigbutton {
+    background: rgba(41, 69, 170, 0.12);
+    color: rgba(47.84,44.71,33.73,.8);
+    border: 1px solid rgba(47.84,44.71,33.73,.3);
+}
+
+
+.bigbuttonCal {
+    margin-right: 20px; 
     background: rgba(41, 69, 170, 0.12);
     color: rgba(47.84,44.71,33.73,.8);
     border: 1px solid rgba(47.84,44.71,33.73,.3);
