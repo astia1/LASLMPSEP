@@ -45,6 +45,8 @@ h1, h2, h3 {
 
 .navbar {  
     margin: 0;
+    font-size: 20px;
+    font-weight: bold;
     /* padding: 1em 5em 1em 5em; */
 }
 
@@ -107,9 +109,6 @@ a, a:hover {
     color:rgba(47.84,44.71,33.73,.7);
 }
 
-.tab-content {
-  background-color: white;
-}
 p {
     font-size: 22px !important;
 }
