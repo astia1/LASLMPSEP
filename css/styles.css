@@ -159,6 +159,10 @@ p {
 }
 
 .giftForm {
-padding: 2em;    
-border: 1px solid rgba(47.84,44.71,33.73,.1);
+    padding: 2em;    
+    border: 1px solid rgba(47.84,44.71,33.73,.1);
+}
+
+.form-control::-webkit-input-placeholder {
+  color: rgba(47.84,44.71,33.73,.3);
 }
