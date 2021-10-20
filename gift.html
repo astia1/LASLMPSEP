@@ -83,50 +83,85 @@
 	</div>
     <div class="container">
         <div class="row row-content">
-		    <div class="col">
+		    <div class="col-12 text-center">
                 <p>Instant Gift Certificates Available. You may also purchase a gift certificate by contacting me directly.</p>
-                    
-                <div class="row row-content">                    
-			       <div class="container">
-                        <div class="row row-content">
-                            <div class="col-12">
-                                <h2 id="contact">Contact</h2><br>
-                            </div>
-                            <!-- FORM STARTS HERE-->
-                            <div class="col-12">
-                                <form>
-                                    <div class="form-row">
-                                        <div class="form-group col-md-6">
-                                            <label for="firstName">First Name</label> <input class="form-control" id="firstName" placeholder="First Name" type="text">
-                                        </div>
-                                        <div class="form-group col-md-6">
-                                            <label for="lastName">Last Name</label> <input class="form-control" id="lastName" placeholder="Last Name" type="text">
-                                        </div>
-                                    </div>
-                                    <div class="form-row">
-                                        <div class="form-group col-md-6">
-                                            <label for="email">Email</label> <input class="form-control" id="email" placeholder="Email" type="email">
-                                        </div>
-                                        <div class="form-group col-md-6">
-                                            <label for="phone">Phone Number</label> <input class="form-control" id="phone" placeholder="Phone Number" type="text">
-                                        </div>
-                                    </div>
-                                    <div class="form-group row">
-                                        <label class="col-md-2 col-form-label" for="feedback">Comments</label>
-                                        <div class="col-12">
-                                            <textarea class="form-control" id="feedback" name="feedback" rows="10"></textarea>
-                                        </div>
-                                    </div>
-                                    <div class="form-group row">
-                                        <div class="col col-md-10">
-                                            <button class="btn btn-secondary" type="submit">Contact</button>
-                                        </div>
-                                    </div>
-                                </form><!--FORM END HERE-->
-                            </div>
+		    </div>
+        </div>
+        <div class="row row-content">
+            <p class="col-3">Instant Gift Certificate you will receive to print or forward</p>
+            <div class="col-9">
+                <div class= "media">
+                    <img class="d-flex ml-3 img-thumbnail" src="img/gift.jpg" alt="React Lake" />
+                </div>    
+		    </div>
+        </div>
+        <div class="row row-content pt-2">    
+            <div class="col-12">
+                <h4 id="contact">Gift Certificate Offerings</h4><br>
+            </div>
+            <!-- FORM STARTS HERE-->
+            <div class="col-12">
+                <form>
+                        <div class="form-row">
+                        <div class="form-group col-md-6">                               
+                            <label for="therapyType" class="col-6 col-form-label">The Gift of ~ </label>
+                            <select name="therapyType" id="therapyType" class="form-control">
+                                <option selected>Select...</option>
+                                <option value="Massage">Massage</option>
+                                <option value="Somatic Support">Somatic Support</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-md-6">    
+                            <label for="numGifts" class="col-md-6 col-form-label">Number of Sessions</label>
+                            <select name="numGifts" id="numGifts" class="form-control">
+                                <option selected>Select...</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                            </select>
                         </div>
                     </div>
-                </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="preNatalCheck1">
+                                <label class="form-check-label" for="preNatalCheck1">
+                                    Pre-Natal ~ No Additional Charge
+                                </label>
+                            </div>
+                        </div>    
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-md-6 col-form-label" for="comments">Comments for me.</label>
+                        <div class="col-12">
+                            <textarea class="form-control" id="comments" name="comments" rows="10"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="gifteeName">For</label> <input class="form-control" id="gifteeName" placeholder="Recipient's Name" type="text">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="gifterName">From</label> <input class="form-control" id="gifterName" placeholder="Gifter's Name" type="text">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="email">Recipients Email</label> <input class="form-control" id="email" placeholder="Recipients Email" type="email">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="phone">Recipients Phone Number</label> <input class="form-control" id="phone" placeholder="Phone Number" type="text">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col col-md-10">
+                            <button class="btn btn-secondary" type="submit">Purchase</button>
+                        </div>
+                    </div>
+                </form><!--FORM END HERE-->
             </div>
         </div>    
     </div>
