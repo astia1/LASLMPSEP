@@ -37,6 +37,9 @@ h1, h2, h3 {
     margin: 20px;
 }
 
+.aboutCard{
+  background-color: rgba(217,200,158,.15);
+}
 
 .site-footer {
     /* background-image: linear-gradient(white, #a1a1a1); */
@@ -93,6 +96,9 @@ a, a:hover {
     overflow: hidden;   
 }
 
+.aboutBox {
+  background-color: #D9C89E26
+}
 .spacer {
     padding-bottom: 3em;
 }
