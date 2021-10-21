@@ -24,6 +24,11 @@ h1, h2, h3 {
     background-size: cover;
 }
 
+.about-banner {
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.6) 0%,rgba(255,255,255,0.9) 100%), url(/img/about.jpg);
+    background-size: cover;
+}
+
 .gift-banner {
     background-image: linear-gradient(to bottom, rgba(255,255,255,0.3) 0%,rgba(255,255,255,0.6) 100%), url(/img/giftgrass.jpg);
     background-size: cover;
@@ -116,7 +121,7 @@ a, a:hover {
 }
 
 p {
-    font-size: 22px !important;
+    color: rgba(47.84,44.71,33.73,1);
 }
 .text-height-0 {
   line-height: 1!important;
