@@ -142,7 +142,7 @@
 		<script language="javascript" type="text/javascript" src="footer.txt"></script>
 	</footer><!--FOOTER ENDS-->
 <!-- map modal -->
-	<div class="row d-flex flex-row py-1 justify-content-end">
+<div class="row d-flex flex-row py-1 justify-content-end">
         <div id="mapModal" class="modal fade" role="dialog">
             <div class="modal-dialog modal-lg" role="document">
                 <div class="modal-content">
@@ -154,16 +154,16 @@
                     <div class="modal-body">
                         <div class="container-fluid">
 							<div class="row row-content">
-								<div class="col">
-									<div class= "media">
-										<img class="d-flex mx-auto img-thumbnail" src="img/map.jpg" alt="Map" />
-									</div>    
+								<div class= "media">
+									<iframe src="map.html" name="targetframe" allowTransparency="true" scrolling="no" frameborder="0"
+                                    width="700px"
+                                    height="500px">
+									</iframe>
 								</div>
 							</div>
 						</div>	              
                         <div class="form-group row">
-                            <div class="col">
-                                <button class="btn btn-info" onclick="window.open('map.html','_blank')">Directions</button>					 
+                            <div class="col">				
                                 <!--Notice that data-dissmiss is in place of type for the second button, this is because it is meant to cancel or clost out of the modal-->
                                <button data-dismiss="modal" class="btn btn-secondary">Close</button>
                             </div>
