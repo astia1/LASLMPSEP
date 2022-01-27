@@ -36,7 +36,7 @@ h1, h2, h3 {
 
 
 .blog-image {
-    background-image: linear-gradient(to bottom, rgba(255,255,255,0.5) 0%,rgba(255,255,255,0.6) 100%), url(/img/Blog.jpg);
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.5) 0%,rgba(255,255,255,0.8) 100%), url(/img/blog.jpg);
     background-size: cover;
 }
 
@@ -125,6 +125,10 @@ a, a:hover {
     color:rgba(47.84,44.71,33.73,.7);
 }
 
+.hy {
+     background:rgba(255,255,255, 0.4);
+}
+
 p {
     color: rgba(47.84,44.71,33.73,1);
 }
@@ -182,84 +186,6 @@ p {
 	margin-right: auto;
 }
 
-
-.blog-header {
-    line-height: 1;
-    border-bottom: 1px solid #e5e5e5;
-  }
-  
-  .blog-header-logo {
-    font-family: "Playfair Display", Georgia, "Times New Roman", serif;
-    font-size: 2.25rem;
-  }
-  
-  .blog-header-logo:hover {
-    text-decoration: none;
-  }
-  
-  .blog-mini-head {
-    line-height: 1.25;
-    color:rgba(71, 87, 62, .7)
-  }
-  
-  .display-4 {
-    font-size: 2.5rem;
-  }
-  @media (min-width: 768px) {
-    .display-4 {
-      font-size: 3rem;
-    }
-  }
-  
-  .nav-scroller {
-    position: relative;
-    z-index: 2;
-    height: 2.75rem;
-    overflow-y: hidden;
-  }
-  
-  .nav-scroller .nav {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: nowrap;
-    flex-wrap: nowrap;
-    padding-bottom: 1rem;
-    margin-top: -1px;
-    overflow-x: auto;
-    text-align: center;
-    white-space: nowrap;
-    -webkit-overflow-scrolling: touch;
-  }
-  
-  .nav-scroller .nav-link {
-    padding-top: .75rem;
-    padding-bottom: .75rem;
-    font-size: .875rem;
-  }
-  
-  .card-img-right {
-    height: 100%;
-    border-radius: 0 3px 3px 0;
-  }
-  
-  .flex-auto {
-    -ms-flex: 0 0 auto;
-    flex: 0 0 auto;
-  }
-  
-  .h-250 { height: 250px; }
-  @media (min-width: 768px) {
-    .h-md-250 { height: 250px; }
-  }
-  
-  /* Pagination */
-  .blog-pagination {
-    margin-bottom: 4rem;
-  }
-  .blog-pagination > .btn {
-    border-radius: 2rem;
-  }
-  
   /*
    * Blog posts
    */
@@ -291,7 +217,7 @@ p {
   
   .card-img-top {
     width: 100%;
-    height: 20rem;
+    height: 22rem;
     object-fit: cover;
 }
 
@@ -299,4 +225,26 @@ p {
     width: 100%;
     height: 25rem;
     object-fit: cover;
+}
+
+@media (max-width: 950px) { 
+	
+	.card-deck-wrapper {margin-right:0;margin-left:0;}
+	.card-deck {
+	    display: block;
+	    width: 100%;
+	    margin-bottom: .75rem;
+	    table-layout: fixed;
+	    border-spacing: 1.25rem 0;
+	}
+	.card-deck .card {
+	    display: block;
+	    margin-bottom: .75rem;
+	    vertical-align: top;
+	}
+  
+  .card-deck .card:not(:first-child) {
+    margin-left: 0px;
+}
+  
 }
