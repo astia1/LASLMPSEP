@@ -9,7 +9,14 @@ body,
     background-color:white;
 }
 
-h1, h2, h3 {
+h1  {
+    font-family: 'Lato', sans-serif;
+    color:rgba(47.84,44.71,33.73,1.0);
+    font-size: 1.25em;
+} 
+
+
+h2, h3 {
     font-family: 'Lato', sans-serif;
     color:rgba(47.84,44.71,33.73,1.0);
 }
@@ -93,7 +100,6 @@ a, a:hover {
 
 .logo {
     margin-bottom: -.25em;
-
 }
 
 .headline {
@@ -217,7 +223,7 @@ p {
   
   .card-img-top {
     width: 100%;
-    height: 22rem;
+    height: 20rem;
     object-fit: cover;
 }
 
@@ -227,7 +233,20 @@ p {
     object-fit: cover;
 }
 
-@media (max-width: 950px) { 
+.card-deck .card {
+	    display: block;
+	    margin-bottom: .75rem;
+	    vertical-align: top;
+	}
+/* 
+.tall {
+	    display: block;
+	    margin-bottom: .75rem;
+        height: 915px;
+	    vertical-align: top;
+	}     */
+/* 
+@media (max-width: 760px) { 
 	
 	.card-deck-wrapper {margin-right:0;margin-left:0;}
 	.card-deck {
@@ -240,11 +259,12 @@ p {
 	.card-deck .card {
 	    display: block;
 	    margin-bottom: .75rem;
+        
 	    vertical-align: top;
 	}
   
-  .card-deck .card:not(:first-child) {
-    margin-left: 0px;
+     .card-deck .card:not(:first-child) {
+    margin-left: 0px; 
 }
   
-}
+}  */
