@@ -12,7 +12,7 @@ body,
 h1  {
     font-family: 'Lato', sans-serif;
     color:rgba(47.84,44.71,33.73,1.0);
-    font-size: 1.25em;
+    font-size: 1.2em;
 } 
 
 
@@ -95,6 +95,11 @@ h2, h3 {
 
 a, a:hover {
     color: inherit;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: blue;
     text-decoration: none;
 }
 
@@ -139,22 +144,22 @@ p {
     color: rgba(47.84,44.71,33.73,1);
 }
 .text-height-0 {
-  line-height: 1!important;
+  line-height: 1;
 }
 .text-height-1 {
-  line-height: 1.5!important;
+  line-height: 1.5;
 }
 .text-height-2 {
-  line-height: 2!important;
+  line-height: 2;
 }
 .text-height-3 {
-  line-height: 2.5!important;
+  line-height: 2.5;
 }
 .text-height-4 {
-  line-height: 3!important;
+  line-height: 3;
 }
 .text-height-5 {
-  line-height: 3.5!important;
+  line-height: 3.5;
 }
 
 .bigbutton {
