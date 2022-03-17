@@ -1,79 +1,107 @@
 body,
 .nav-item {
-    font-family: 'Lato', sans-serif;
-    font-size: 20px;
-    color:rgba(47.84,44.71,33.73,1.0);
-  
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  color: rgba(47.84, 44.71, 33.73, 1);
 }
 
-.tab-content{
-    background-color:white;
+.tab-content {
+  background-color: white;
 }
 
-h1  {
-    font-family: 'Lato', sans-serif;
-    color:rgba(47.84,44.71,33.73,1.0);
-    font-size: 1.2em;
-} 
+h1 {
+  font-family: "Lato", sans-serif;
+  color: rgba(47.84, 44.71, 33.73, 1);
+  font-size: 1.6em;
+}
 
-
-h2, h3 {
-    font-family: 'Lato', sans-serif;
-    color:rgba(47.84,44.71,33.73,1.0);
+h2,
+h3 {
+  font-family: "Lato", sans-serif;
+  color: rgba(47.84, 44.71, 33.73, 1);
 }
 
 .home-image {
-    background-image: linear-gradient(to bottom, rgba(255,255,255,0.3) 0%,rgba(255,255,255,.6) 100%), url(/img/WhiteHyds.jpg);
-    background-size: cover;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.3) 0%,
+      rgba(255, 255, 255, 0.6) 100%
+    ),
+    url(/img/WhiteHyds.jpg);
+  background-size: cover;
 }
 
 .calendar-banner {
-    background-image: linear-gradient(to bottom, rgba(255,255,255,0.6) 0%,rgba(255,255,255,0.9) 100%), url(/img/appts.jpg);
-    background-size: cover;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.6) 0%,
+      rgba(255, 255, 255, 0.9) 100%
+    ),
+    url(/img/appts.jpg);
+  background-size: cover;
 }
 
 .about-image {
-    background-image: linear-gradient(to bottom, rgba(255,255,255,0.6) 0%,rgba(255,255,255,0.9) 100%), url(/img/about.jpg);
-    background-size: cover;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.6) 0%,
+      rgba(255, 255, 255, 0.9) 100%
+    ),
+    url(/img/about.jpg);
+  background-size: cover;
 }
 
 .gift-banner {
-    background-image: linear-gradient(to bottom, rgba(255,255,255,0.3) 0%,rgba(255,255,255,0.6) 100%), url(/img/giftgrass.jpg);
-    background-size: cover;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.3) 0%,
+      rgba(255, 255, 255, 0.6) 100%
+    ),
+    url(/img/giftgrass.jpg);
+  background-size: cover;
 }
 
 .blog-image {
-    background-image: linear-gradient(to bottom, rgba(255,255,255,0.5) 0%,rgba(255,255,255,0.8) 100%), url(/img/blog.jpg);
-    background-size: cover;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.5) 0%,
+      rgba(255, 255, 255, 0.8) 100%
+    ),
+    url(/img/blog.jpg);
+  background-size: cover;
 }
 
 .contact-image {
-    background-image: linear-gradient(to bottom, rgba(255,255,255,0.5) 0%,rgba(255,255,255,0.5) 100%), url(/img/contact.jpg);
-    background-size: cover;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.5) 0%,
+      rgba(255, 255, 255, 0.5) 100%
+    ),
+    url(/img/contact.jpg);
+  background-size: cover;
 }
 
-.box  {
-    background-color: rgba(217,200,158,.15);
-    padding: 30px;
-    margin: 20px;
+.box {
+  background-color: rgba(217, 200, 158, 0.15);
+  padding: 30px;
+  margin: 20px;
 }
 
-.aboutCard{
-  background-color: rgba(217,200,158,.15);
+.aboutCard {
+  background-color: rgba(217, 200, 158, 0.15);
 }
 
 .site-footer {
-    /* background-image: linear-gradient(white, #a1a1a1); */
-    background-color: rgba(217,200,158,.15);
-    padding: 20px 0;
-}
-    
-.row-content {
-    padding: 50px 0;
-    border-bottom: 1px ridge; 
-    /* min-height: 200px; */
+  /* background-image: linear-gradient(white, #a1a1a1); */
+  background-color: rgba(217, 200, 158, 0.15);
+  padding: 20px 0;
 }
 
+.row-content {
+  padding: 50px 0;
+  border-bottom: 1px ridge;
+  /* min-height: 200px; */
+}
 
 /*.navbar-brand {
     font-family: 'Lato', sans-serif;
@@ -84,72 +112,73 @@ h2, h3 {
 }*/
 
 .navbar {
-    margin: 0;
-    background-color: white;
-    border-bottom: 1px ridge;
+  margin: 0;
+  background-color: white;
+  border-bottom: 1px ridge;
 }
 
-
-
-.breadcrumb, .breadcrumb-item{
-    background: none;
-    border-radius: 0;
+.breadcrumb,
+.breadcrumb-item {
+  background: none;
+  border-radius: 0;
 }
 
-.btn,.btn-primary {
-    border-radius: 0;
+.btn,
+.btn-primary {
+  border-radius: 0;
 }
 
-a, a:hover {
-    color: inherit;
-    text-decoration: underline;
-    text-decoration-thickness:  .5% ;
+a,
+a:hover {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-thickness: 0.5%;
 }
 
 a:hover {
-    color: blue;
-    text-decoration: none;
+  color: blue;
+  text-decoration: none;
 }
 
 .logo {
-    margin-bottom: -.25em;
+  margin-bottom: -0.25em;
 }
 
 .headline {
-    padding-left: 2em;
-    background: transparent;
+  padding-left: 2em;
+  background: transparent;
 }
 
 .d-flex {
-    overflow: hidden;   
+  overflow: hidden;
 }
 
 .aboutBox {
-  background-color: #D9C89E26
+  background-color: #d9c89e26;
 }
 .spacer {
-    padding-bottom: 3em;
+  padding-bottom: 3em;
 }
 
-.strip{
- background:#2f2c210f;
+.strip {
+  background: #2f2c210f;
 }
 
-.stripCal{
- padding-right: 20px;   
- background:#2f2c210f;
+.stripCal {
+  padding-right: 20px;
+  background: #2f2c210f;
 }
 
 .fa {
-    color:rgba(47.84,44.71,33.73,.7);
+  color: rgba(47.84, 44.71, 33.73, 0.7);
 }
 
 .hy {
-     background:rgba(255,255,255, 0.4);
+  background: rgba(255, 255, 255, 0.4);
 }
 
 p {
-    color: rgba(47.84,44.71,33.73,1);
+  color: rgba(47.84, 44.71, 33.73, 1);
 }
 .text-height-0 {
   line-height: 1;
@@ -176,82 +205,80 @@ p {
     border: 1px solid rgba(47.84,44.71,33.73,.3);
 } */
 
-
 .bigbuttonCal {
-    margin-right: 20px; 
-    background: rgba(41, 69, 170, 0.12);
-    color: rgba(47.84,44.71,33.73,.8);
-    border: 1px solid rgba(47.84,44.71,33.73,.3);
+  margin-right: 20px;
+  background: rgba(41, 69, 170, 0.12);
+  color: rgba(47.84, 44.71, 33.73, 0.8);
+  border: 1px solid rgba(47.84, 44.71, 33.73, 0.3);
 }
 
-.svg-content { 
-	display: inline-block;
-	position: absolute;
-	top: 0;
-	left: 0;
+.svg-content {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .giftForm {
-    padding: 2em;    
-    border: 1px solid rgba(47.84,44.71,33.73,.1);
+  padding: 2em;
+  border: 1px solid rgba(47.84, 44.71, 33.73, 0.1);
 }
 
 .form-control::-webkit-input-placeholder {
-  color: rgba(47.84,44.71,33.73,.3);
+  color: rgba(47.84, 44.71, 33.73, 0.3);
 }
 
 #gform {
-	margin-left: auto;
-	margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-  /*
+/*
    * Blog posts
    */
-  .blog-post {
-    margin-bottom: 4rem;
-  }
-  .blog-post-title {
-    margin-bottom: .25rem;
-    font-size: 2.5rem;
-  }
-  .blog-post-meta {
-    margin-bottom: 1.25rem;
-    color: #999;
-  }
-  
-  /*
+.blog-post {
+  margin-bottom: 4rem;
+}
+.blog-post-title {
+  margin-bottom: 0.25rem;
+  font-size: 2.5rem;
+}
+.blog-post-meta {
+  margin-bottom: 1.25rem;
+  color: #999;
+}
+
+/*
    * Footer
    */
-  .blog-footer {
-    padding: 2.5rem 0;
-    color: #999;
-    text-align: center;
-    background-color: #f9f9f9;
-    border-top: .05rem solid #e5e5e5;
-  }
-  .blog-footer p:last-child {
-    margin-bottom: 0;
-  }
-  
-  .card-img-top {
-    width: 100%;
-    height: 20rem;
-    object-fit: cover;
+.blog-footer {
+  padding: 2.5rem 0;
+  color: #999;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-top: 0.05rem solid #e5e5e5;
+}
+.blog-footer p:last-child {
+  margin-bottom: 0;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 20rem;
+  object-fit: cover;
 }
 
 .card-img-post {
-    width: 100%;
-    height: 25rem;
-    object-fit: cover;
+  width: 100%;
+  height: 25rem;
+  object-fit: cover;
 }
 
 .card-deck .card {
-	    display: block;
-	    margin-bottom: .75rem;
-	    vertical-align: top;
-    
-	}
+  display: block;
+  margin-bottom: 0.75rem;
+  /* vertical-align: top; */
+}
 /* 
 .tall {
 	    display: block;
