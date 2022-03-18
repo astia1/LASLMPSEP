@@ -11,5 +11,3 @@ $("#mapButton").click(function () {
 $("#mapButton2").click(function () {
   $("#mapModal").modal("show");
 });
-
-//form submit
