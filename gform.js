@@ -5,13 +5,13 @@ const e = React.createElement;
 class Gform extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { liked: false };
+    this.state = {};
   }
 
   render() {
-    if (this.state.liked) {
-      alert("You liked this.");
-    }
+    // if (this.state.liked) {
+    //   alert("You liked this.");
+    // }
 
     return (
       <div>
