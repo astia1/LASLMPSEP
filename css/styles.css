@@ -278,7 +278,6 @@ p {
 .card-deck .card {
   display: block;
   margin-bottom: 0.75rem;
-  vertical-align: top;
 }
 /* 
 .tall {
