@@ -132,12 +132,15 @@ h3 {
 a,
 a:hover {
   color: inherit;
-  /* text-decoration: underline;
-  text-decoration-thickness: 0.5%; */
+  text-decoration: underline;
+  text-decoration-thickness: 0.5%;
 }
 
 a:hover {
   color: blue;
+  text-decoration: none;
+}
+nav a {
   text-decoration: none;
 }
 
