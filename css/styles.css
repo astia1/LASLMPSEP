@@ -32,6 +32,11 @@ h3 {
   background-size: cover;
 }
 
+#q1 {
+  width: 600px;
+  text-align: center;
+}
+
 .calendar-banner {
   background-image: linear-gradient(
       to bottom,
